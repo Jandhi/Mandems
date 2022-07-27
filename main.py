@@ -38,5 +38,5 @@ def interpret_line(line : str) -> Statement:
         name = line.split(' ')[1]
         return Output(name)
 
-interpret_file('test.6ix')
+interpret_file('fibonacci.6ix')
 program.execute(State())
